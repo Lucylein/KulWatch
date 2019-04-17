@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		
 		// the "time reading help " for the watch
 		// Uhrzeitleserhilfsanzeiger
-		ctx.lineWidth = radius * 0.3;
+		ctx.lineWidth = radius * 0.23;
 		ctx.lineCap = "butt";
 		ctx.strokeStyle = "rgba(255,0,0,0.7)";
 		ctx.beginPath();
