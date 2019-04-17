@@ -32,16 +32,6 @@ document.addEventListener('DOMContentLoaded', function(){
 		drawFace(ctx, radius);
 		drawNumbers(ctx, radius);
 		updateAngle();
-
-		// the "time reading help " for the watch
-		// Uhrzeitleserhilfsanzeiger
-		ctx.lineCap = "butt";
-		ctx.strokeStyle = "rgba(255,0,0,0.7)";
-		ctx.beginPath();
-		ctx.moveTo(radius * 0.3, 0);
-		ctx.lineTo(radius * 0.98, 0);
-		ctx.stroke();
-		ctx.lineCap = "round";
 	}
 
 	function drawFace(ctx, radius) {
